@@ -5,11 +5,9 @@ title: "Joshua E. Yu"
 
 ## Welcome!
 
-My name is Josh, and I'm currently pursuing an M.S. in Computer Science at the Georgia Institute of Technology through its OMSCS program.
+My name is Josh, and I'm currently pursuing an M.S. in Computer Science at the Georgia Institute of Technology through its OMSCS program. My interests and work lie in the intersection of computer graphics, computer vision, and deep learning.
 
-I enjoy learning computer graphics techniques and APIs (so far OpenGL, going forward Vulkan), and I am particularly interested in pursuing the intersection of computer graphics and computer vision in applications such as 3D reconstruction.
-
-This past summer (2025), I was a Machine Learning Intern at General Atomics Aeronautical Systems (GA-ASI) where I developed a computer vision model for radar systems using Python and PyTorch.
+This semester (Spring 2026) I am contributing to research in 3D shape completion of lizard vertebrae with the [UF BioVision lab](https://www.biovisionlab.com/home) through Georgia Tech. This past summer (2025), I was a Machine Learning Intern at [General Atomics Aeronautical Systems (GA-ASI)](https://www.ga-asi.com) where I developed a computer vision model for radar systems using Python and PyTorch.
 
 Previously, I earned a B.S. in Chemical Engineering from the University of California, Los Angeles (UCLA). Upon graduating, I worked at Takeda Pharmaceutical Company in multiple technical operations roles, the longest and most recent of which was as an Automation Engineer.
 
@@ -28,12 +26,20 @@ Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It 
 <hr>{:.weak-hr}
 
 <article markdown="block">
+### [San Francisco's MUNI Fleet, Visualized in a WebGPU Fluid Dynamics Simulation](https://github.com/joshuaeyu/fluidmetro)
+
+[!["Fluid simulation screenshot"](/images/fluidmetro-screenshot.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/fluidmetro)
+
+This is a GPU-accelerated (via WebGPU) web browser implementation of Jos Stam's real-time fluid dynamics solver originally presented in his seminal paper "Stable Fluids" from 1999. This project additionally includes a light backend which provides live and historical vehicle positions of San Francisco's MUNI (public transit) fleet to the frontend fluid simuation. Together, these create a fun way to visualize real-world data (and a rewarding way for me to learn the basics of web development, a new graphics API, and GPGPU)!
+</article>
+
+<!-- <article markdown="block">
 ### [Real-Time Fluid Simulation following Jos Stam's *Stable Fluids*](https://github.com/joshuaeyu/stablefluids)
 
 [!["Fluid simulation screenshot"](/images/stablefluids.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/stablefluids)
 
 I've ported Jos Stam's original demo, written in C and GLUT for early versions of OpenGL, to OpenGL 3.3 using GLAD and GLFW. I've additionally introduced modifications such as periodic (toroidal) boundary conditions and colored visualization of velocity.
-</article>
+</article> -->
 
 <hr>{:.weak-hr}
 
@@ -70,6 +76,8 @@ This was my team's final project in *COM SCI 174A: Introduction to Computer Grap
 * CS 6750: Human-Computer Interaction
 * CS 7641: Machine Learning
 * CS 8001 ODA: Data Structures & Algorithms Seminar
+* CS 8803 O27: Computer Graphics in the AI Era
+* CS 8903: Special Projects
 * CSE 6220: Introduction to High-Performance Computing
 
 ### University of California, Los Angeles
