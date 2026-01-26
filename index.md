@@ -16,6 +16,14 @@ Previously, I earned a B.S. in Chemical Engineering from the University of Calif
 ## Projects
 
 <article markdown="block">
+### [San Francisco's MUNI Fleet, Visualized in a WebGPU Fluid Dynamics Simulation](https://github.com/joshuaeyu/fluidmetro)
+
+[!["Fluid simulation screenshot"](/images/fluidmetro-screenshot.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/fluidmetro)
+
+This is a GPU-accelerated (via WebGPU) web browser implementation of Jos Stam's real-time fluid dynamics solver originally presented in his seminal paper "Stable Fluids" from 1999. This project additionally includes a light backend which provides live and historical vehicle positions of San Francisco's MUNI (public transit) fleet to the frontend fluid simuation. Together, these create a fun way to visualize real-world data (and a rewarding way for me to learn the basics of web development, a new graphics API, and GPGPU)!
+</article>
+
+<article markdown="block">
 ### [Real-Time 3D Graphics Engine](https://github.com/joshuaeyu/plum){:target="_blank"}
 
 [![Plum graphics engine screenshot](/images/screenshot_demo1.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}
@@ -24,14 +32,6 @@ Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It 
 </article>
 
 <hr>{:.weak-hr}
-
-<article markdown="block">
-### [San Francisco's MUNI Fleet, Visualized in a WebGPU Fluid Dynamics Simulation](https://github.com/joshuaeyu/fluidmetro)
-
-[!["Fluid simulation screenshot"](/images/fluidmetro-screenshot.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/fluidmetro)
-
-This is a GPU-accelerated (via WebGPU) web browser implementation of Jos Stam's real-time fluid dynamics solver originally presented in his seminal paper "Stable Fluids" from 1999. This project additionally includes a light backend which provides live and historical vehicle positions of San Francisco's MUNI (public transit) fleet to the frontend fluid simuation. Together, these create a fun way to visualize real-world data (and a rewarding way for me to learn the basics of web development, a new graphics API, and GPGPU)!
-</article>
 
 <!-- <article markdown="block">
 ### [Real-Time Fluid Simulation following Jos Stam's *Stable Fluids*](https://github.com/joshuaeyu/stablefluids)
