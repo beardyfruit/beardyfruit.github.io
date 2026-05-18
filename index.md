@@ -20,7 +20,7 @@ Previously, I earned a B.S. in Chemical Engineering from the University of Calif
 <article markdown="block">
 ### [San Francisco's MUNI Fleet, Visualized in a WebGPU Fluid Dynamics Simulation](https://github.com/joshuaeyu/fluidmetro){:target="_blank"}
 
-[!["Fluid simulation screenshot"](/images/fluidmetro-screenshot.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/fluidmetro){:target="_blank"}
+[!["Fluid simulation screenshot"](/assets/images/fluidmetro-screenshot.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/fluidmetro){:target="_blank"}
 
 This is a GPU-accelerated (via WebGPU) web browser implementation of Jos Stam's real-time fluid dynamics solver originally presented in his seminal paper "Stable Fluids" from 1999. This project additionally includes a light backend which provides live and historical vehicle positions of San Francisco's MUNI (public transit) fleet to the frontend fluid simuation. Together, these create a fun way to visualize real-world data (and a rewarding way for me to learn the basics of web development, a new graphics API, and GPGPU)!
 </article>
@@ -28,7 +28,7 @@ This is a GPU-accelerated (via WebGPU) web browser implementation of Jos Stam's 
 <article markdown="block">
 ### [Real-Time 3D Graphics Engine](https://github.com/joshuaeyu/plum){:target="_blank"}
 
-[![Plum graphics engine screenshot](/images/screenshot_demo1.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}
+[![Plum graphics engine screenshot](/assets/images/screenshot_demo1.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}
 
 Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can create materials and instantiate models, primitives, and lights into the scene from the engine's GUI. While developing this, I learned a lot about software design patterns, C++ development, the OpenGL graphics API, and real-time 3D rendering techniques.
 </article>
@@ -38,7 +38,7 @@ Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It 
 <!-- <article markdown="block">
 ### [Real-Time Fluid Simulation following Jos Stam's *Stable Fluids*](https://github.com/joshuaeyu/stablefluids)
 
-[!["Fluid simulation screenshot"](/images/stablefluids.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/stablefluids)
+[!["Fluid simulation screenshot"](/assets/images/stablefluids.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/stablefluids)
 
 I've ported Jos Stam's original demo, written in C and GLUT for early versions of OpenGL, to OpenGL 3.3 using GLAD and GLFW. I've additionally introduced modifications such as periodic (toroidal) boundary conditions and colored visualization of velocity.
 </article> -->
@@ -48,8 +48,8 @@ I've ported Jos Stam's original demo, written in C and GLUT for early versions o
 <article markdown="block">
 ### [Image Representation with 2D Gaussians](https://github.com/joshuaeyu/2dgs){:target="_blank"}
 
-[!["2D Gaussian Splatting GIF 0"](/images/2dgs_movie0.gif "2D Gaussian Splatting GIF 0"){:.project-image-small}](https://github.com/joshuaeyu/2dgs){:target="_blank"}
-[!["2D Gaussian Splatting GIF 1"](/images/2dgs_movie1.gif "2D Gaussian Splatting GIF 1"){:.project-image-small}](https://github.com/joshuaeyu/2dgs){:target="_blank"}
+[!["2D Gaussian Splatting GIF 0"](/assets/images/2dgs_movie0.gif "2D Gaussian Splatting GIF 0"){:.project-image-small}](https://github.com/joshuaeyu/2dgs){:target="_blank"}
+[!["2D Gaussian Splatting GIF 1"](/assets/images/2dgs_movie1.gif "2D Gaussian Splatting GIF 1"){:.project-image-small}](https://github.com/joshuaeyu/2dgs){:target="_blank"}
 
 This is the code for my final project in *CS 8803 O27: Computer Graphics in the AI Era* at the Georgia Institute of Technology. This project implements a robust 2D Gaussian-based image representation model and investigates how image complexity impacts the number of Gaussians needed to achieve a certain level of reconstruction quality. Much of my 2DGS implementation is inspired by the formulation and implementation notes laid out in Zhang et al.'s Image-GS.
 </article>
@@ -59,7 +59,7 @@ This is the code for my final project in *CS 8803 O27: Computer Graphics in the 
 <article markdown="block">
 ### [Optimizing Neural Network Learning with Clustering and Dimensionality Reduction](unsuplearning)
 
-[!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsuplearning)
+[!["Neural network performance table"](/assets/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsuplearning)
 
 This article is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
 </article>
@@ -69,7 +69,7 @@ This article is an overview of my work on the corresponding assignment in *CS 76
 <article markdown="block">
 ### [Spider-Man Minigame](https://github.com/joshuaeyu/cs174a-spiderman-minigame)
 
-[![Spider-Man minigame screenshot](/images/screenshot1.png "Spider-Man minigame screenshot"){:.project-image}](https://github.com/joshuaeyu/cs174a-spiderman-minigame){:target="_blank"}
+[![Spider-Man minigame screenshot](/assets/images/screenshot1.png "Spider-Man minigame screenshot"){:.project-image}](https://github.com/joshuaeyu/cs174a-spiderman-minigame){:target="_blank"}
 
 This was my team's final project in *COM SCI 174A: Introduction to Computer Graphics* at UCLA. We implemented physics, swinging and wall-climbing mechanics, collision detection, audio, and player/camera controls on top of the WebGL-based graphics library that was provided by the course.
 </article>
