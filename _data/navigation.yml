@@ -1,6 +1,8 @@
-- name: About
+- name: Welcome!
   link: /#welcome
-- name: Projects
-  link: /#projects
+- name: Projects - Personal
+  link: /#projects---personal
+- name: Projects - Coursework
+  link: /#projects---coursework
 - name: Coursework
   link: /#coursework
